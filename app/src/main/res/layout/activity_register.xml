@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="View.RegisterActivity"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:src="@drawable/register2"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="100dp"></ImageView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/registerwb"
+        android:adjustViewBounds="true"></ImageView>
+
+
+    <EditText
+        android:id="@+id/phone"
+        android:drawableStart="@drawable/phone"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+         android:background="@drawable/register"
+        android:hint="请输入手机号"
+        android:inputType="phone"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:paddingStart="10dp"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:drawableStart="@drawable/phone"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:background="@drawable/register"
+        android:hint="请输入昵称"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:paddingStart="10dp"/>
+
+
+    <EditText
+        android:id="@+id/psw1"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:background="@drawable/register"
+        android:hint="请输入密码"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/psw"
+        android:paddingStart="10dp"/>
+
+    <EditText
+        android:id="@+id/psw2"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:background="@drawable/register"
+        android:hint="请确认密码"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/psw"
+        android:paddingStart="10dp"/>
+
+    <Button
+        android:id="@+id/register_final"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="点击注册"
+        android:background="@drawable/btn"></Button>
+
+
+
+</LinearLayout>
